@@ -39,7 +39,7 @@ while True:
 
     # Check if the model's prediction is correct
     if correct_label != predicted_digit:
-        # Append the corrected data point to training_data
+        # Append the corrected data point to training data
         corrected_data_point = (input_image.tolist(), correct_label)
         training_data.append(corrected_data_point)
         print("Data point added to training data.")
